@@ -10,6 +10,12 @@ public abstract class Conta {
         this.titular = titular;
     }
 
+    public Conta(Cliente titular, String numero){
+        this.saldo = 0.0;
+        this.numero = numero;
+        this.titular = titular;
+    }
+
     public String getNumero() {
         return numero;
     }
